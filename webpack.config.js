@@ -2,6 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 
 module.exports = {
   entry: './src/main.js',
@@ -19,8 +21,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'JS Template',
       template: './src/index.html',
-      inject: 'body'
-    })
+      inject: 'body',
+    }),
+    new CopyWebpackPlugin([
+    { from: 'src/home.html', to: ''},
+    { from: 'src/lineup.html', to: ''},
+    { from: 'src/book-info.html', to: ''},
+    { from: 'src/bookshelf.html', to: ''},
+    { from: 'src/search.html', to: ''}
+  ])
   ],
   module: {
     rules: [
@@ -52,7 +61,7 @@ module.exports = {
         use: ['html-loader']
       },
       {
-        test: /\.(gif|png|jpe?g)$/,
+        test: /\.(gif|png|jpe?g|svg)$/,
         use: [
           {
             loader: 'file-loader',

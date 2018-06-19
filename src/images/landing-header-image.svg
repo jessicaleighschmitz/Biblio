@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="473px" viewBox="0 0 320 473" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Landing-header + Landing-page-title Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="320" height="473"></rect>
+        <linearGradient x1="42.2427952%" y1="81.3020349%" x2="53.5015877%" y2="57.0699894%" id="linearGradient-3">
+            <stop stop-color="#F6D365" offset="0%"></stop>
+            <stop stop-color="#FDA085" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="12.1333333%" id="linearGradient-4">
+            <stop stop-color="#FDE0ED" offset="0%"></stop>
+            <stop stop-color="#FF9A9E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-67.816092%" x2="50%" y2="108.697019%" id="linearGradient-5">
+            <stop stop-color="#F6D365" offset="0%"></stop>
+            <stop stop-color="#C2E9FB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="30.0986526%" y1="0.286759393%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FFECD2" offset="0%"></stop>
+            <stop stop-color="#F6D365" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page">
+            <g id="Landing-header-+-Landing-page-title-Mask">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Landing-header" mask="url(#mask-2)">
+                    <g transform="translate(-42.000000, -27.000000)">
+                        <path d="M41.4961558,0 L382.624794,0 L417,429.411025 C361.47257,478.577335 324.911175,502.418593 307.315816,500.934798 C231.835938,494.569675 150.963881,337.078708 103.117513,337.078708 C40.9511125,337.078708 20.4106601,367.856147 41.4961558,429.411025 L41.4961558,0 Z" id="Rectangle-4" fill="url(#linearGradient-3)"></path>
+                        <path d="M0,0 L430,0 C411.771649,153.662706 377.555063,244.505109 327.350244,272.527207 C252.043015,314.560355 150.286622,166.449887 80.146727,195.272545 C33.3867968,214.487651 6.67122115,255.396802 0,318 L0,0 Z" id="Rectangle" fill="url(#linearGradient-4)"></path>
+                        <path d="M41,0 L398,0 C359.99506,81.3393561 321.286727,129.922689 281.875,145.75 C222.757409,169.490966 146.734021,108.668944 103.390854,114.863027 C74.4954102,118.992415 53.6984587,138.70474 41,174 L41,0 Z" id="Rectangle-2" fill="url(#linearGradient-5)"></path>
+                        <path d="M41,0 L263.570312,0 C249.142648,28.5462963 228.203405,51.072338 200.752582,67.578125 C159.576347,92.3368055 127.172392,65.4527106 92.0225409,76.546875 C68.5893068,83.9429846 51.5817932,97.7606929 41,118 L41,0 Z" id="Path" fill="url(#linearGradient-6)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
