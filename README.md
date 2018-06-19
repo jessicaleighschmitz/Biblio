@@ -1,9 +1,17 @@
-# JS Template Repo for Epicodus
+# Biblio
 
-## By Bobby Martin
+## By Jessica Schmitz
+
+![landing-page](src/images/landing.png)
 
 # Description
-This is a template directory to make things go quicker in the morning.
+This is a digital bookshelf that helps the user track books they have read and plan to read.
+
+# This is Biblio
+
+![landing and add page](src/images/landing-add.png)
+
+![home, navigation, and bookshelf page](src/images/home-nav.png)
 
 # Specifications
 * The program will hold the necessary files and folders for easy cloning
