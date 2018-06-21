@@ -10,12 +10,21 @@ $button-radius: 6px;
 $font-body: 'Josefin Sans', sans-serif;
 
 // regular styles landing page
+a{
+  text-decoration: none;
+  color: $text-color;
+
+}
 body{
   font-family: $font-body;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  max-width: 1000px;
+}
+h1{
+  color: #fff;
+  text-align: center;
 }
 .header{
   background-image: url('./../src/images/landing-header-image.svg');
@@ -87,8 +96,31 @@ input::placeholder{
 
 // home styles
 
+.book-image a, .recommended-book a, .reading-now a, .reading-now-book a, {
+  text-decoration: none;
+}
 .header-home{
   background-image: url('./../src/images/header-main.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 280px;
+  max-width: 410px
+
+}
+.grid-container{
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  max-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+}
+
+.book-image img{
+  width: 108px;
 }
 
 .footer{
@@ -100,6 +132,14 @@ input::placeholder{
   position: fixed;
   bottom: 0;
   background-color: #fff;
+}
+.footer a{
+  color: $orange-color;
+}
+.nav{
+  display: flex;
+  margin: 15px;
+  justify-content: space-between;
 }
 
 //search page
@@ -114,4 +154,18 @@ input#search-bar{
 input#search-bar::placeholder{
   color: #fff;
   font-weight: lighter;
+}
+
+//book info page
+
+.status-button button{
+  background-color: $orange-color;
+  border-radius: $button-radius;
+  width: 250px;
+  height: 33px;
+  margin-top: 23px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
 }
