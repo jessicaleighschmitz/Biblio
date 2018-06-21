@@ -31,6 +31,21 @@ module.exports = {
       filename: 'home.html',
       inject: 'body',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/bookshelf.html',
+      filename: 'bookshelf.html',
+      inject: 'body',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/lineup.html',
+      filename: 'lineup.html',
+      inject: 'body',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/book-info.html',
+      filename: 'book-info.html',
+      inject: 'body',
+    }),
   //   new CopyWebpackPlugin([
   //   { from: 'src/home.html', to: ''},
   //   { from: 'src/lineup.html', to: ''},
