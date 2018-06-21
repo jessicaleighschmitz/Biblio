@@ -5,7 +5,7 @@
 ![landing-page](src/images/landing.png)
 
 # Description
-This is a digital bookshelf that helps the user track books they have read and plan to read.
+This is a digital bookshelf that helps the user track books they have read and plan to read. Will be mad using React at a later date.
 
 # This is Biblio
 
@@ -36,4 +36,4 @@ This is a digital bookshelf that helps the user track books they have read and p
 * Karma
 
 This project uses the _MIT License_
-&copy; **Bobby Martin** 2018
+&copy; **Jessica Schmitz** 2018
