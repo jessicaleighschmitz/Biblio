@@ -5,7 +5,7 @@
 ![landing-page](src/images/landing.png)
 
 # Description
-This is a digital bookshelf that helps the user track books they have read and plan to read. Will be mad using React at a later date.
+This is a digital bookshelf that helps the user track books they have read and plan to read. Will be made using React at a later date.
 
 # This is Biblio
 
